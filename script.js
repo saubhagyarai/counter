@@ -2,6 +2,7 @@ const counters = document.querySelectorAll('.counter');
 const speed = 200; // The lower the slower
 
 counters.forEach(counter => {
+    // first commit on sau branch
     const updateCount = () => {
         const target = +counter.getAttribute('data-target');
         const count = +counter.innerText;
